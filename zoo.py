@@ -97,3 +97,58 @@ class Snake(Deer):
     def grow(self):
         self._age_in_months += 1
         self._required_food_in_kgs += 0.5
+        
+ class Zoo:
+    count_animals_in_all = 0
+    def __init__(self):
+        self._reserved_food_in_kgs = 0
+        self.animal_count = 0
+        self._animal_list = {'deer': 0,'lion':0,'shark':0,'gold_fish':0,'snake':0}
+        
+    def add_food_to_reserve(self,weight):
+        self._reserved_food_in_kgs += weight
+        
+    def count_animals(self):
+        return self.animal_count
+        
+    def add_animal(self,animal):
+        self.animal_count += 1
+        if str(animal) == 'Lion':
+            self._animal_list['lion'] += 1
+        if str(animal) == 'Deer':
+            self._animal_list['deer'] += 1
+        if str(animal) == 'Shark':
+            self._animal_list['shark'] += 1
+        if str(animal) == 'GoldFish':
+            self._animal_list['gold_fish'] += 1
+        if str(animal) == 'Snake':
+            self._animal_list['snake'] += 1
+            
+        Zoo.count_animals_in_all += 1
+     
+        
+    def feed(self,animal):
+        if self._reserved_food_in_kgs == 0:
+            return
+        self._reserved_food_in_kgs -= animal.required_food_in_kgs
+        animal.grow()
+        return self._reserved_food_in_kgs
+        
+    @staticmethod
+    def count_animals_in_given_zoos(list):
+        count = 0
+        for i in list:
+            count += i.animal_count
+        return count
+        
+    @classmethod
+    def count_animals_in_all_zoos(cls):
+        return Zoo.count_animals_in_all
+        
+    @property
+    def reserved_food_in_kgs(self):
+        return self._reserved_food_in_kgs
+    
+    @property
+    def animal_list(self):
+        return self._animal_list
