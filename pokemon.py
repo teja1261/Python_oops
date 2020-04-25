@@ -32,29 +32,33 @@ class sound:
     
     sounds = ""
     
-    def make_sound(self):
-        print(self.sounds)
+    @classmethod
+    def make_sound(cls):
+        print(cls.sounds)
         
 class running:
     
     runs = ""
     
-    def run(self):
-        print(self.runs)
+    @classmethod
+    def run(cls):
+        print(cls.runs)
         
 class swimming:
     
     swims = ""
-
-    def swim(self):
-        print(self.swims)
+    
+    @classmethod
+    def swim(cls):
+        print(cls.swims)
         
 class flying:
     
     flys = ""
     
-    def fly(self):
-        print(self.flys)
+    @classmethod
+    def fly(cls):
+        print(cls.flys)
         
         
 class Pikachu(Pokemon,sound,running):
@@ -161,7 +165,8 @@ class Island:
         self._max_no_of_pokemon = max_no_of_pokemon
         self._total_food_available_in_kgs = total_food_available_in_kgs
         self._pokemon_left_to_catch = 0
-        self._pokemon_count = 0
+        self.pokemon_count = 0
+        self.pokemon_list = []
         
     @property    
     def name(self):
@@ -179,16 +184,16 @@ class Island:
     def pokemon_left_to_catch(self):
         return self._pokemon_left_to_catch
         
-    @property
-    def pokemon_count(self):
-        return self._pokemon_count
         
     def add_pokemon(self,pokemon):
         
-        self._pokemon_count += 1
-        if self._pokemon_count > self._max_no_of_pokemon:
+        if self.pokemon_count <= self._max_no_of_pokemon:
+            self.pokemon_count += 1
+            self.pokemon_list.append(pokemon)
+        else:
             print("Island at its max pokemon capacity")
             
+        
         self._pokemon_left_to_catch += 1
         
     def __str__(self):
@@ -217,12 +222,9 @@ class Trainer:
     @property
     def food_in_bag(self):
         return self._food_in_bag
-     
-    def __str__(self):
-        return "{}".format(self._name)
         
     def get_all_islands(self):
-        pass
+        return 
     
     def move_to_island(self):
         pass
@@ -231,7 +233,8 @@ class Trainer:
         pass
     
     def catch(self):
-        pass
+        
+        self._experience += 20
     
     def get_my_pokemon(self):
         pass
