@@ -1,0 +1,10 @@
+Q1 = '''SELECT COUNT(id) FROM Movie WHERE year < 2000;'''
+
+Q2 = '''SELECT AVG(rank) FROM Movie WHERE year = 1991;'''
+
+Q3 = '''SELECT MIN(rank) FROM Movie WHERE year = 1991;'''
+
+Q4 = '''SELECT fname, lname FROM Actor INNER JOIN Cast on id = pid WHERE mid = 27;'''
+
+Q5 = '''SELECT COUNT(id) FROM Actor INNER JOIN Cast on id = pid WHERE (fname = 'Jon' AND lname = 'Dough');'''
+
