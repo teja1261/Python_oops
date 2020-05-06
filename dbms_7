@@ -8,3 +8,12 @@ Q4 = '''SELECT fname, lname FROM Actor INNER JOIN Cast on id = pid WHERE mid = 2
 
 Q5 = '''SELECT COUNT(id) FROM Actor INNER JOIN Cast on id = pid WHERE (fname = 'Jon' AND lname = 'Dough');'''
 
+Q6 = '''SELECT name FROM Movie WHERE (year BETWEEN 2003 AND 2006) AND name LIKE 'Young Latin Girls%';'''
+
+Q7 = '''SELECT fname, lname FROM MovieDirector INNER JOIN Director on did = Director.id INNER JOIN Movie on Movie.id = mid WHERE name LIKE "Star Trek%";'''
+
+Q8 = '''SELECT name FROM MovieDirector INNER JOIN Director on Director.id = did INNER JOIN Movie on Movie.id = mid INNER JOIN Actor WHERE (Actor.fname = "Jackie (I)" AND Director.fname = "Jackie (I)") AND (Actor.lname = "Chan" AND Director.lname = "Chan") ORDER BY name ASC;'''
+
+Q9 = '''SELECT fname,lname FROM Director INNER JOIN MovieDIRECTOR ON `Director`.`id` = did INNER JOIN Movie ON `Movie`.`id` = mid WHERE year = 2001 GROUP BY did HAVING COUNT(mid)>=4 ORDER BY fname ASC,lname DESC;'''
+
+Q10 = '''SELECT gender, COUNT(gender) FROM Actor GROUP BY gender ORDER BY gender ASC;'''
