@@ -10,3 +10,6 @@ Q5 = '''SELECT `Match`.`match_no`, `Team`.`name`, `Player`.`name` FROM MatchCapt
 
 Q6 = '''SELECT match_no, `Player`.`name`, jersey_no From Match INNER JOIN Player on `Player`.`player_id` = `Match`.`player_of_match` ORDER BY match_no ASC;'''
 
+Q7 = '''SELECT `Team`.`name` ,AVG(`Player`.`age`) AS avg_age FROM Player INNER JOIN Team on `Player`.`team_id` = `Team`.`team_id` GROUP BY `Team`.`name` HAVING AVG(`Player`.`age`) > 26 ORDER BY `Team`.`name` ASC;'''
+
+Q8 = '''SELECT `Player`.`name`, `Player`.`jersey_no`, `Player`.`age`, COUNT(`GoalDetails`.`player_id`) AS no_of_goals FROM GoalDetails INNER JOIN Player on `Player`.`player_id` = `GoalDetails`.`player_id` GROUP BY `Player`.`player_id` HAVING `Player`.`age` <= 27 ORDER BY no_of_goals DESC,`Player`.`name` ASC;'''
