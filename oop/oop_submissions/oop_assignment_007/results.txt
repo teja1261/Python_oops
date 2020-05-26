@@ -1,0 +1,84 @@
+Tests ran at 23 Apr 09 35 PM
+
+65 tests passed out of 76 tests.
+
+test_86ad1b2b-4c24-402c-834b-13623588eba7_zoo_functionality.py::test_deer_constructor_for_object_creation_with_given_values: passed
+test_86ad1b2b-4c24-402c-834b-13623588eba7_zoo_functionality.py::test_two_deer_object_creation: passed
+test_86ad1b2b-4c24-402c-834b-13623588eba7_zoo_functionality.py::test_deer_constructor_raises_error_when_invalid_age_is_given: passed
+test_86ad1b2b-4c24-402c-834b-13623588eba7_zoo_functionality.py::test_deer_constructor_raises_error_when_invalid_food_in_kg_is_given: passed
+test_86ad1b2b-4c24-402c-834b-13623588eba7_zoo_functionality.py::test_deer_constructor_raises_error_when_food_in_kg_is_zero: passed
+test_86ad1b2b-4c24-402c-834b-13623588eba7_zoo_functionality.py::test_deer_grow_method: passed
+test_86ad1b2b-4c24-402c-834b-13623588eba7_zoo_functionality.py::test_deer_make_sound: passed
+test_86ad1b2b-4c24-402c-834b-13623588eba7_zoo_functionality.py::test_deer_breathe: passed
+test_86ad1b2b-4c24-402c-834b-13623588eba7_zoo_functionality.py::test_lion_constructor_for_object_creation_with_given_values: passed
+test_86ad1b2b-4c24-402c-834b-13623588eba7_zoo_functionality.py::test_two_lion_object_creation: passed
+test_86ad1b2b-4c24-402c-834b-13623588eba7_zoo_functionality.py::test_lion_constructor_raises_error_when_invalid_age_is_given: passed
+test_86ad1b2b-4c24-402c-834b-13623588eba7_zoo_functionality.py::test_lion_constructor_raises_error_when_invalid_food_in_kg_is_given: passed
+test_86ad1b2b-4c24-402c-834b-13623588eba7_zoo_functionality.py::test_lion_constructor_raises_error_when_food_in_kg_is_zero: passed
+test_86ad1b2b-4c24-402c-834b-13623588eba7_zoo_functionality.py::test_lion_grow_method: passed
+test_86ad1b2b-4c24-402c-834b-13623588eba7_zoo_functionality.py::test_lion_make_sound: passed
+test_86ad1b2b-4c24-402c-834b-13623588eba7_zoo_functionality.py::test_lion_breathe: passed
+test_86ad1b2b-4c24-402c-834b-13623588eba7_zoo_functionality.py::test_shark_constructor_for_object_creation_with_given_values: passed
+test_86ad1b2b-4c24-402c-834b-13623588eba7_zoo_functionality.py::test_two_shark_object_creation: passed
+test_86ad1b2b-4c24-402c-834b-13623588eba7_zoo_functionality.py::test_shark_constructor_raises_error_when_invalid_age_is_given: passed
+test_86ad1b2b-4c24-402c-834b-13623588eba7_zoo_functionality.py::test_shark_constructor_raises_error_when_invalid_food_in_kg_is_given: passed
+test_86ad1b2b-4c24-402c-834b-13623588eba7_zoo_functionality.py::test_shark_constructor_raises_error_when_food_in_kg_is_zero: passed
+test_86ad1b2b-4c24-402c-834b-13623588eba7_zoo_functionality.py::test_shark_grow_method: passed
+test_86ad1b2b-4c24-402c-834b-13623588eba7_zoo_functionality.py::test_shark_make_sound: passed
+test_86ad1b2b-4c24-402c-834b-13623588eba7_zoo_functionality.py::test_shark_breathe: passed
+test_86ad1b2b-4c24-402c-834b-13623588eba7_zoo_functionality.py::test_gold_fish_constructor_for_object_creation_with_given_values: passed
+test_86ad1b2b-4c24-402c-834b-13623588eba7_zoo_functionality.py::test_two_gold_fishes_object_creation: passed
+test_86ad1b2b-4c24-402c-834b-13623588eba7_zoo_functionality.py::test_gold_fish_constructor_raises_error_when_invalid_age_is_given: passed
+test_86ad1b2b-4c24-402c-834b-13623588eba7_zoo_functionality.py::test_gold_fish_constructor_raises_error_when_invalid_food_in_kg_is_given: passed
+test_86ad1b2b-4c24-402c-834b-13623588eba7_zoo_functionality.py::test_gold_fish_constructor_raises_error_when_food_in_kg_is_zero: passed
+test_86ad1b2b-4c24-402c-834b-13623588eba7_zoo_functionality.py::test_gold_fish_grow_method: passed
+test_86ad1b2b-4c24-402c-834b-13623588eba7_zoo_functionality.py::test_gold_fish_make_sound: passed
+test_86ad1b2b-4c24-402c-834b-13623588eba7_zoo_functionality.py::test_gold_fish_breathe: passed
+test_86ad1b2b-4c24-402c-834b-13623588eba7_zoo_functionality.py::test_snake_constructor_for_object_creation_with_given_values: passed
+test_86ad1b2b-4c24-402c-834b-13623588eba7_zoo_functionality.py::test_two_snake_object_creation: passed
+test_86ad1b2b-4c24-402c-834b-13623588eba7_zoo_functionality.py::test_snake_constructor_raises_error_when_invalid_age_is_given: passed
+test_86ad1b2b-4c24-402c-834b-13623588eba7_zoo_functionality.py::test_snake_constructor_raises_error_when_invalid_food_in_kg_is_given: passed
+test_86ad1b2b-4c24-402c-834b-13623588eba7_zoo_functionality.py::test_snake_constructor_raises_error_when_food_in_kg_is_zero: passed
+test_86ad1b2b-4c24-402c-834b-13623588eba7_zoo_functionality.py::test_snake_grow_method: passed
+test_86ad1b2b-4c24-402c-834b-13623588eba7_zoo_functionality.py::test_snake_make_sound: passed
+test_86ad1b2b-4c24-402c-834b-13623588eba7_zoo_functionality.py::test_snake_breathe: passed
+test_86ad1b2b-4c24-402c-834b-13623588eba7_zoo_functionality.py::test_zoo_initialization: passed
+test_86ad1b2b-4c24-402c-834b-13623588eba7_zoo_functionality.py::test_add_food_to_reserves: passed
+test_86ad1b2b-4c24-402c-834b-13623588eba7_zoo_functionality.py::test_zoo_animals_count: passed
+test_86ad1b2b-4c24-402c-834b-13623588eba7_zoo_functionality.py::test_zoo_animals_count_does_not_change_other_zoo_count: passed
+test_86ad1b2b-4c24-402c-834b-13623588eba7_zoo_functionality.py::test_zoo_feed_lion: passed
+test_86ad1b2b-4c24-402c-834b-13623588eba7_zoo_functionality.py::test_zoo_feed_snake: passed
+test_86ad1b2b-4c24-402c-834b-13623588eba7_zoo_functionality.py::test_zoo_feed_Deer: passed
+test_86ad1b2b-4c24-402c-834b-13623588eba7_zoo_functionality.py::test_zoo_feed_Shark: passed
+test_86ad1b2b-4c24-402c-834b-13623588eba7_zoo_functionality.py::test_zoo_feed_gold_fish: passed
+test_86ad1b2b-4c24-402c-834b-13623588eba7_zoo_functionality.py::test_zoo_feed_to_lion_when_food_to_reserves_is_zero: passed
+test_86ad1b2b-4c24-402c-834b-13623588eba7_zoo_functionality.py::test_zoo_feed_to_snake_when_food_to_reserves_is_zero: passed
+test_86ad1b2b-4c24-402c-834b-13623588eba7_zoo_functionality.py::test_zoo_feed_to_deer_when_food_to_reserves_is_zero: passed
+test_86ad1b2b-4c24-402c-834b-13623588eba7_zoo_functionality.py::test_zoo_feed_to_shark_when_food_to_reserves_is_zero: passed
+test_86ad1b2b-4c24-402c-834b-13623588eba7_zoo_functionality.py::test_zoo_feed_to_gold_fish_when_food_to_reserves_is_zero: passed
+test_86ad1b2b-4c24-402c-834b-13623588eba7_zoo_functionality.py::test_lion_hunt: failed
+test_86ad1b2b-4c24-402c-834b-13623588eba7_zoo_functionality.py::test_lion_hunt_when_no_deer: failed
+test_86ad1b2b-4c24-402c-834b-13623588eba7_zoo_functionality.py::test_snake_hunt: failed
+test_86ad1b2b-4c24-402c-834b-13623588eba7_zoo_functionality.py::test_snake_hunt_when_no_deer: failed
+test_86ad1b2b-4c24-402c-834b-13623588eba7_zoo_functionality.py::test_shark_hunt: failed
+test_86ad1b2b-4c24-402c-834b-13623588eba7_zoo_functionality.py::test_shark_hunt_when_no_deer: failed
+test_86ad1b2b-4c24-402c-834b-13623588eba7_zoo_functionality.py::test_count_animals_in_given_zoos: passed
+test_86ad1b2b-4c24-402c-834b-13623588eba7_zoo_functionality.py::test_count_animals_in_given_zoos_are_empty: passed
+test_86ad1b2b-4c24-402c-834b-13623588eba7_zoo_functionality.py::test_zoo_count_animals_in_all_zoos: passed
+test_86ad1b2b-4c24-402c-834b-13623588eba7_zoo_functionality.py::test_encapsulation_for_deer: passed
+test_86ad1b2b-4c24-402c-834b-13623588eba7_zoo_functionality.py::test_encapsulation_for_lion: passed
+test_86ad1b2b-4c24-402c-834b-13623588eba7_zoo_functionality.py::test_encapsulation_for_shark: passed
+test_86ad1b2b-4c24-402c-834b-13623588eba7_zoo_functionality.py::test_encapsulation_for_snake: passed
+test_86ad1b2b-4c24-402c-834b-13623588eba7_zoo_functionality.py::test_encapsulation_for_gold_fish: passed
+test_86ad1b2b-4c24-402c-834b-13623588eba7_zoo_functionality.py::test_encapsulation_for_zoo: passed
+test_86ad1b2b-4c24-402c-834b-13623588eba7_zoo_functionality.py::test_class_methods_in_zoo_class: passed
+test_86ad1b2b-4c24-402c-834b-13623588eba7_zoo_functionality.py::test_static_methods_in_zoo_class: passed
+test_86ad1b2b-4c24-402c-834b-13623588eba7_zoo_functionality.py::test_class_methods_in_snake_class: failed
+test_86ad1b2b-4c24-402c-834b-13623588eba7_zoo_functionality.py::test_class_methods_in_deer_class: failed
+test_86ad1b2b-4c24-402c-834b-13623588eba7_zoo_functionality.py::test_class_methods_in_lion_class: failed
+test_86ad1b2b-4c24-402c-834b-13623588eba7_zoo_functionality.py::test_class_methods_in_shark_class: failed
+test_86ad1b2b-4c24-402c-834b-13623588eba7_zoo_functionality.py::test_class_methods_in_gold_fish_class: failed
+
+
+Errors: 0 errors
+

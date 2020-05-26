@@ -1,0 +1,63 @@
+Tests ran at 22 Apr 07 44 PM
+
+52 tests passed out of 55 tests.
+
+test_d1c7ec04-0e74-4f8e-aede-3c9b2eb1c9a9_store.py::test_print_item: passed
+test_d1c7ec04-0e74-4f8e-aede-3c9b2eb1c9a9_store.py::test_when_print_two_items: passed
+test_d1c7ec04-0e74-4f8e-aede-3c9b2eb1c9a9_store.py::test_when_price_is_zero: passed
+test_d1c7ec04-0e74-4f8e-aede-3c9b2eb1c9a9_store.py::test_when_price_is_negative: passed
+test_d1c7ec04-0e74-4f8e-aede-3c9b2eb1c9a9_store.py::test_print_query: passed
+test_d1c7ec04-0e74-4f8e-aede-3c9b2eb1c9a9_store.py::test_when_printing_two_query: passed
+test_d1c7ec04-0e74-4f8e-aede-3c9b2eb1c9a9_store.py::test_invalid_value_for_query_operation: passed
+test_d1c7ec04-0e74-4f8e-aede-3c9b2eb1c9a9_store.py::test_add_items_to_store: passed
+test_d1c7ec04-0e74-4f8e-aede-3c9b2eb1c9a9_store.py::test_creating_two_stores: passed
+test_d1c7ec04-0e74-4f8e-aede-3c9b2eb1c9a9_store.py::test_print_empty_store: passed
+test_d1c7ec04-0e74-4f8e-aede-3c9b2eb1c9a9_store.py::test_print_items_in_store: passed
+test_d1c7ec04-0e74-4f8e-aede-3c9b2eb1c9a9_store.py::test_filter_eq_name_field: passed
+test_d1c7ec04-0e74-4f8e-aede-3c9b2eb1c9a9_store.py::test_filter_eq_price_field: passed
+test_d1c7ec04-0e74-4f8e-aede-3c9b2eb1c9a9_store.py::test_filter_eq_category_field: passed
+test_d1c7ec04-0e74-4f8e-aede-3c9b2eb1c9a9_store.py::test_filter_in_name_field: passed
+test_d1c7ec04-0e74-4f8e-aede-3c9b2eb1c9a9_store.py::test_filter_in_price_field: passed
+test_d1c7ec04-0e74-4f8e-aede-3c9b2eb1c9a9_store.py::test_filter_in_category_field: passed
+test_d1c7ec04-0e74-4f8e-aede-3c9b2eb1c9a9_store.py::test_filter_gt_price_field: passed
+test_d1c7ec04-0e74-4f8e-aede-3c9b2eb1c9a9_store.py::test_filter_gte_price_field: passed
+test_d1c7ec04-0e74-4f8e-aede-3c9b2eb1c9a9_store.py::test_filter_gte_price_field_equal_case: passed
+test_d1c7ec04-0e74-4f8e-aede-3c9b2eb1c9a9_store.py::test_filter_lt_price_field: passed
+test_d1c7ec04-0e74-4f8e-aede-3c9b2eb1c9a9_store.py::test_filter_lte_price_field: passed
+test_d1c7ec04-0e74-4f8e-aede-3c9b2eb1c9a9_store.py::test_filter_lte_price_field_equal_case: passed
+test_d1c7ec04-0e74-4f8e-aede-3c9b2eb1c9a9_store.py::test_filter_starts_with_name_field: passed
+test_d1c7ec04-0e74-4f8e-aede-3c9b2eb1c9a9_store.py::test_filter_starts_with_category_field: passed
+test_d1c7ec04-0e74-4f8e-aede-3c9b2eb1c9a9_store.py::test_filter_ends_with_name_field: passed
+test_d1c7ec04-0e74-4f8e-aede-3c9b2eb1c9a9_store.py::test_filter_ends_with_category_field: passed
+test_d1c7ec04-0e74-4f8e-aede-3c9b2eb1c9a9_store.py::test_filter_contains_name_field: passed
+test_d1c7ec04-0e74-4f8e-aede-3c9b2eb1c9a9_store.py::test_filter_contains_category_field: passed
+test_d1c7ec04-0e74-4f8e-aede-3c9b2eb1c9a9_store.py::test_store_after_filter: passed
+test_d1c7ec04-0e74-4f8e-aede-3c9b2eb1c9a9_store.py::test_exclude_eq_name_field: passed
+test_d1c7ec04-0e74-4f8e-aede-3c9b2eb1c9a9_store.py::test_exclude_eq_price_field: passed
+test_d1c7ec04-0e74-4f8e-aede-3c9b2eb1c9a9_store.py::test_exclude_eq_category_field: passed
+test_d1c7ec04-0e74-4f8e-aede-3c9b2eb1c9a9_store.py::test_exclude_in_name_field: passed
+test_d1c7ec04-0e74-4f8e-aede-3c9b2eb1c9a9_store.py::test_exclude_in_price_field: passed
+test_d1c7ec04-0e74-4f8e-aede-3c9b2eb1c9a9_store.py::test_exclude_in_category_field: passed
+test_d1c7ec04-0e74-4f8e-aede-3c9b2eb1c9a9_store.py::test_exclude_gt_price_field: passed
+test_d1c7ec04-0e74-4f8e-aede-3c9b2eb1c9a9_store.py::test_exclude_gte_price_field: passed
+test_d1c7ec04-0e74-4f8e-aede-3c9b2eb1c9a9_store.py::test_exclude_gte_price_field_equal_case: passed
+test_d1c7ec04-0e74-4f8e-aede-3c9b2eb1c9a9_store.py::test_exclude_lt_price_field: passed
+test_d1c7ec04-0e74-4f8e-aede-3c9b2eb1c9a9_store.py::test_exclude_lte_price_field: passed
+test_d1c7ec04-0e74-4f8e-aede-3c9b2eb1c9a9_store.py::test_exclude_lte_price_field_equal_case: passed
+test_d1c7ec04-0e74-4f8e-aede-3c9b2eb1c9a9_store.py::test_exclude_starts_with_name_field: passed
+test_d1c7ec04-0e74-4f8e-aede-3c9b2eb1c9a9_store.py::test_exclude_starts_with_category_field: passed
+test_d1c7ec04-0e74-4f8e-aede-3c9b2eb1c9a9_store.py::test_exclude_ends_with_name_field: passed
+test_d1c7ec04-0e74-4f8e-aede-3c9b2eb1c9a9_store.py::test_exclude_ends_with_category_field: passed
+test_d1c7ec04-0e74-4f8e-aede-3c9b2eb1c9a9_store.py::test_exclude_contains_name_field: passed
+test_d1c7ec04-0e74-4f8e-aede-3c9b2eb1c9a9_store.py::test_exclude_contains_category_field: passed
+test_d1c7ec04-0e74-4f8e-aede-3c9b2eb1c9a9_store.py::test_store_after_exclude: passed
+test_d1c7ec04-0e74-4f8e-aede-3c9b2eb1c9a9_store.py::test_add_two_filters: failed
+test_d1c7ec04-0e74-4f8e-aede-3c9b2eb1c9a9_store.py::test_chained_filters: passed
+test_d1c7ec04-0e74-4f8e-aede-3c9b2eb1c9a9_store.py::test_chained_filter_and_exclude: passed
+test_d1c7ec04-0e74-4f8e-aede-3c9b2eb1c9a9_store.py::test_filter_with_two_query_args: failed
+test_d1c7ec04-0e74-4f8e-aede-3c9b2eb1c9a9_store.py::test_exclude_with_two_query_args: failed
+test_d1c7ec04-0e74-4f8e-aede-3c9b2eb1c9a9_store.py::test_count_store_items: passed
+
+
+Errors: 0 errors
+

@@ -1,0 +1,124 @@
+Tests ran at 27 Apr 04 28 PM
+
+115 tests passed out of 116 tests.
+
+test_dc6575a9-d693-4d9a-98c0-9ee9c24d8620_pokemon.py::test_pikachu_class_for_proper_methods: passed
+test_dc6575a9-d693-4d9a-98c0-9ee9c24d8620_pokemon.py::test_squirtle_class_for_proper_methods: passed
+test_dc6575a9-d693-4d9a-98c0-9ee9c24d8620_pokemon.py::test_pidgey_class_for_proper_methods: passed
+test_dc6575a9-d693-4d9a-98c0-9ee9c24d8620_pokemon.py::test_swanna_class_for_proper_methods: passed
+test_dc6575a9-d693-4d9a-98c0-9ee9c24d8620_pokemon.py::test_zapdos_class_for_proper_methods: passed
+test_dc6575a9-d693-4d9a-98c0-9ee9c24d8620_pokemon.py::test_pikachu_class[Some Name-1]: passed
+test_dc6575a9-d693-4d9a-98c0-9ee9c24d8620_pokemon.py::test_pikachu_class[Some-2]: passed
+test_dc6575a9-d693-4d9a-98c0-9ee9c24d8620_pokemon.py::test_pikachu_class[Ryan-100]: passed
+test_dc6575a9-d693-4d9a-98c0-9ee9c24d8620_pokemon.py::test_pikachu_print[Some Name-1]: passed
+test_dc6575a9-d693-4d9a-98c0-9ee9c24d8620_pokemon.py::test_pikachu_print[Some-2]: passed
+test_dc6575a9-d693-4d9a-98c0-9ee9c24d8620_pokemon.py::test_pikachu_print[Ryan-100]: passed
+test_dc6575a9-d693-4d9a-98c0-9ee9c24d8620_pokemon.py::test_pikachu_class_encapsulation: passed
+test_dc6575a9-d693-4d9a-98c0-9ee9c24d8620_pokemon.py::test_pikachu_class_with_invalid_name: passed
+test_dc6575a9-d693-4d9a-98c0-9ee9c24d8620_pokemon.py::test_pikachu_class_with_invalid_level[0]: passed
+test_dc6575a9-d693-4d9a-98c0-9ee9c24d8620_pokemon.py::test_pikachu_class_with_invalid_level[-1]: passed
+test_dc6575a9-d693-4d9a-98c0-9ee9c24d8620_pokemon.py::test_pikachu_class_with_invalid_level[-100]: passed
+test_dc6575a9-d693-4d9a-98c0-9ee9c24d8620_pokemon.py::test_pikachu_make_sound: passed
+test_dc6575a9-d693-4d9a-98c0-9ee9c24d8620_pokemon.py::test_pikachu_run: passed
+test_dc6575a9-d693-4d9a-98c0-9ee9c24d8620_pokemon.py::test_pikachu_attack[1]: passed
+test_dc6575a9-d693-4d9a-98c0-9ee9c24d8620_pokemon.py::test_pikachu_attack[3]: passed
+test_dc6575a9-d693-4d9a-98c0-9ee9c24d8620_pokemon.py::test_pikachu_attack[27]: passed
+test_dc6575a9-d693-4d9a-98c0-9ee9c24d8620_pokemon.py::test_pidgey_class[Some Name-1]: passed
+test_dc6575a9-d693-4d9a-98c0-9ee9c24d8620_pokemon.py::test_pidgey_class[Some-2]: passed
+test_dc6575a9-d693-4d9a-98c0-9ee9c24d8620_pokemon.py::test_pidgey_class[Ryan-100]: passed
+test_dc6575a9-d693-4d9a-98c0-9ee9c24d8620_pokemon.py::test_pidgey_print[Some Name-1]: passed
+test_dc6575a9-d693-4d9a-98c0-9ee9c24d8620_pokemon.py::test_pidgey_print[Some-2]: passed
+test_dc6575a9-d693-4d9a-98c0-9ee9c24d8620_pokemon.py::test_pidgey_print[Ryan-100]: passed
+test_dc6575a9-d693-4d9a-98c0-9ee9c24d8620_pokemon.py::test_pidgey_class_encapsulation: passed
+test_dc6575a9-d693-4d9a-98c0-9ee9c24d8620_pokemon.py::test_pidgey_class_with_invalid_name: passed
+test_dc6575a9-d693-4d9a-98c0-9ee9c24d8620_pokemon.py::test_pidgey_class_with_invalid_level[0]: passed
+test_dc6575a9-d693-4d9a-98c0-9ee9c24d8620_pokemon.py::test_pidgey_class_with_invalid_level[-1]: passed
+test_dc6575a9-d693-4d9a-98c0-9ee9c24d8620_pokemon.py::test_pidgey_class_with_invalid_level[-100]: passed
+test_dc6575a9-d693-4d9a-98c0-9ee9c24d8620_pokemon.py::test_pidgey_make_sound: passed
+test_dc6575a9-d693-4d9a-98c0-9ee9c24d8620_pokemon.py::test_pidgey_fly: passed
+test_dc6575a9-d693-4d9a-98c0-9ee9c24d8620_pokemon.py::test_pidgey_attack[1]: passed
+test_dc6575a9-d693-4d9a-98c0-9ee9c24d8620_pokemon.py::test_pidgey_attack[3]: passed
+test_dc6575a9-d693-4d9a-98c0-9ee9c24d8620_pokemon.py::test_pidgey_attack[27]: passed
+test_dc6575a9-d693-4d9a-98c0-9ee9c24d8620_pokemon.py::test_squirtle_class[Some Name-1]: passed
+test_dc6575a9-d693-4d9a-98c0-9ee9c24d8620_pokemon.py::test_squirtle_class[Some-2]: passed
+test_dc6575a9-d693-4d9a-98c0-9ee9c24d8620_pokemon.py::test_squirtle_class[Ryan-100]: passed
+test_dc6575a9-d693-4d9a-98c0-9ee9c24d8620_pokemon.py::test_squirtle_print[Some Name-1]: passed
+test_dc6575a9-d693-4d9a-98c0-9ee9c24d8620_pokemon.py::test_squirtle_print[Some-2]: passed
+test_dc6575a9-d693-4d9a-98c0-9ee9c24d8620_pokemon.py::test_squirtle_print[Ryan-100]: passed
+test_dc6575a9-d693-4d9a-98c0-9ee9c24d8620_pokemon.py::test_squirtle_class_encapsulation: passed
+test_dc6575a9-d693-4d9a-98c0-9ee9c24d8620_pokemon.py::test_squirtle_class_with_invalid_name: passed
+test_dc6575a9-d693-4d9a-98c0-9ee9c24d8620_pokemon.py::test_squirtle_class_with_invalid_level[0]: passed
+test_dc6575a9-d693-4d9a-98c0-9ee9c24d8620_pokemon.py::test_squirtle_class_with_invalid_level[-1]: passed
+test_dc6575a9-d693-4d9a-98c0-9ee9c24d8620_pokemon.py::test_squirtle_class_with_invalid_level[-100]: passed
+test_dc6575a9-d693-4d9a-98c0-9ee9c24d8620_pokemon.py::test_squirtle_make_sound: passed
+test_dc6575a9-d693-4d9a-98c0-9ee9c24d8620_pokemon.py::test_squirtle_run: passed
+test_dc6575a9-d693-4d9a-98c0-9ee9c24d8620_pokemon.py::test_squirtle_swim: passed
+test_dc6575a9-d693-4d9a-98c0-9ee9c24d8620_pokemon.py::test_squirtle_attack[1]: passed
+test_dc6575a9-d693-4d9a-98c0-9ee9c24d8620_pokemon.py::test_squirtle_attack[3]: passed
+test_dc6575a9-d693-4d9a-98c0-9ee9c24d8620_pokemon.py::test_squirtle_attack[27]: passed
+test_dc6575a9-d693-4d9a-98c0-9ee9c24d8620_pokemon.py::test_swanna_class[Some Name-1]: passed
+test_dc6575a9-d693-4d9a-98c0-9ee9c24d8620_pokemon.py::test_swanna_class[Some-2]: passed
+test_dc6575a9-d693-4d9a-98c0-9ee9c24d8620_pokemon.py::test_swanna_class[Ryan-100]: passed
+test_dc6575a9-d693-4d9a-98c0-9ee9c24d8620_pokemon.py::test_swanna_print[Some Name-1]: passed
+test_dc6575a9-d693-4d9a-98c0-9ee9c24d8620_pokemon.py::test_swanna_print[Some-2]: passed
+test_dc6575a9-d693-4d9a-98c0-9ee9c24d8620_pokemon.py::test_swanna_print[Ryan-100]: passed
+test_dc6575a9-d693-4d9a-98c0-9ee9c24d8620_pokemon.py::test_swanna_class_encapsulation: passed
+test_dc6575a9-d693-4d9a-98c0-9ee9c24d8620_pokemon.py::test_swanna_class_with_invalid_name: passed
+test_dc6575a9-d693-4d9a-98c0-9ee9c24d8620_pokemon.py::test_swanna_class_with_invalid_level[0]: passed
+test_dc6575a9-d693-4d9a-98c0-9ee9c24d8620_pokemon.py::test_swanna_class_with_invalid_level[-1]: passed
+test_dc6575a9-d693-4d9a-98c0-9ee9c24d8620_pokemon.py::test_swanna_class_with_invalid_level[-100]: passed
+test_dc6575a9-d693-4d9a-98c0-9ee9c24d8620_pokemon.py::test_swanna_make_sound: passed
+test_dc6575a9-d693-4d9a-98c0-9ee9c24d8620_pokemon.py::test_swanna_fly: passed
+test_dc6575a9-d693-4d9a-98c0-9ee9c24d8620_pokemon.py::test_swanna_swim: passed
+test_dc6575a9-d693-4d9a-98c0-9ee9c24d8620_pokemon.py::test_swanna_attack[1]: passed
+test_dc6575a9-d693-4d9a-98c0-9ee9c24d8620_pokemon.py::test_swanna_attack[3]: passed
+test_dc6575a9-d693-4d9a-98c0-9ee9c24d8620_pokemon.py::test_swanna_attack[27]: passed
+test_dc6575a9-d693-4d9a-98c0-9ee9c24d8620_pokemon.py::test_zapdos_class[Some Name-1]: passed
+test_dc6575a9-d693-4d9a-98c0-9ee9c24d8620_pokemon.py::test_zapdos_class[Some-2]: passed
+test_dc6575a9-d693-4d9a-98c0-9ee9c24d8620_pokemon.py::test_zapdos_class[Ryan-100]: passed
+test_dc6575a9-d693-4d9a-98c0-9ee9c24d8620_pokemon.py::test_zapdos_print[Some Name-1]: passed
+test_dc6575a9-d693-4d9a-98c0-9ee9c24d8620_pokemon.py::test_zapdos_print[Some-2]: passed
+test_dc6575a9-d693-4d9a-98c0-9ee9c24d8620_pokemon.py::test_zapdos_print[Ryan-100]: passed
+test_dc6575a9-d693-4d9a-98c0-9ee9c24d8620_pokemon.py::test_zapdos_class_encapsulation: passed
+test_dc6575a9-d693-4d9a-98c0-9ee9c24d8620_pokemon.py::test_zapdos_class_with_invalid_name: passed
+test_dc6575a9-d693-4d9a-98c0-9ee9c24d8620_pokemon.py::test_zapdos_class_with_invalid_level[0]: passed
+test_dc6575a9-d693-4d9a-98c0-9ee9c24d8620_pokemon.py::test_zapdos_class_with_invalid_level[-1]: passed
+test_dc6575a9-d693-4d9a-98c0-9ee9c24d8620_pokemon.py::test_zapdos_class_with_invalid_level[-100]: passed
+test_dc6575a9-d693-4d9a-98c0-9ee9c24d8620_pokemon.py::test_zapdos_make_sound: passed
+test_dc6575a9-d693-4d9a-98c0-9ee9c24d8620_pokemon.py::test_zapdos_fly: passed
+test_dc6575a9-d693-4d9a-98c0-9ee9c24d8620_pokemon.py::test_zapdos_attack[1]: passed
+test_dc6575a9-d693-4d9a-98c0-9ee9c24d8620_pokemon.py::test_zapdos_attack[3]: passed
+test_dc6575a9-d693-4d9a-98c0-9ee9c24d8620_pokemon.py::test_zapdos_attack[27]: passed
+test_dc6575a9-d693-4d9a-98c0-9ee9c24d8620_pokemon.py::test_island_constructor_for_object_creation_with_given_values[Island2-1-100]: passed
+test_dc6575a9-d693-4d9a-98c0-9ee9c24d8620_pokemon.py::test_island_constructor_for_object_creation_with_given_values[Island1-20-10000]: passed
+test_dc6575a9-d693-4d9a-98c0-9ee9c24d8620_pokemon.py::test_island_print_function_given_island_object[Island2-1-100]: passed
+test_dc6575a9-d693-4d9a-98c0-9ee9c24d8620_pokemon.py::test_island_print_function_given_island_object[Island1-20-10000]: passed
+test_dc6575a9-d693-4d9a-98c0-9ee9c24d8620_pokemon.py::test_island_class_encapsulation: passed
+test_dc6575a9-d693-4d9a-98c0-9ee9c24d8620_pokemon.py::test_add_pokemon_to_island: passed
+test_dc6575a9-d693-4d9a-98c0-9ee9c24d8620_pokemon.py::test_str_method_after_add_pokemon_to_island: passed
+test_dc6575a9-d693-4d9a-98c0-9ee9c24d8620_pokemon.py::test_add_multiple_pokemon_to_island: passed
+test_dc6575a9-d693-4d9a-98c0-9ee9c24d8620_pokemon.py::test_add_pokemon_to_island_over_max_limit: passed
+test_dc6575a9-d693-4d9a-98c0-9ee9c24d8620_pokemon.py::test_trainer_constructor_for_object_creation_with_given_values[Ryan]: passed
+test_dc6575a9-d693-4d9a-98c0-9ee9c24d8620_pokemon.py::test_trainer_constructor_for_object_creation_with_given_values[Mysty]: passed
+test_dc6575a9-d693-4d9a-98c0-9ee9c24d8620_pokemon.py::test_trainer_constructor_for_object_creation_with_given_values[Rock]: passed
+test_dc6575a9-d693-4d9a-98c0-9ee9c24d8620_pokemon.py::test_trainerr_class_encapsulation: passed
+test_dc6575a9-d693-4d9a-98c0-9ee9c24d8620_pokemon.py::test_get_all_islands_in_case_of_only_one_island: passed
+test_dc6575a9-d693-4d9a-98c0-9ee9c24d8620_pokemon.py::test_get_all_islands: passed
+test_dc6575a9-d693-4d9a-98c0-9ee9c24d8620_pokemon.py::test_trainer_is_not_any_island_return_message: passed
+test_dc6575a9-d693-4d9a-98c0-9ee9c24d8620_pokemon.py::test_trainer_move_to_an_island_return_current_island_is_given_island: passed
+test_dc6575a9-d693-4d9a-98c0-9ee9c24d8620_pokemon.py::test_trainer_move_from_one_island_to_another_return_current_island_is_given_island: passed
+test_dc6575a9-d693-4d9a-98c0-9ee9c24d8620_pokemon.py::test_collect_food: passed
+test_dc6575a9-d693-4d9a-98c0-9ee9c24d8620_pokemon.py::test_collect_food_when_trainer_not_on_island: passed
+test_dc6575a9-d693-4d9a-98c0-9ee9c24d8620_pokemon.py::test_collect_food_when_trainer_bag_is_full: passed
+test_dc6575a9-d693-4d9a-98c0-9ee9c24d8620_pokemon.py::test_collect_food_when_food_on_island_is_less_than_required: passed
+test_dc6575a9-d693-4d9a-98c0-9ee9c24d8620_pokemon.py::test_collect_food_when_food_on_island_zero: passed
+test_dc6575a9-d693-4d9a-98c0-9ee9c24d8620_pokemon.py::test_when_trainer_catches_pokemon_given_valid_trainer_experience_return_increment_in_experience: passed
+test_dc6575a9-d693-4d9a-98c0-9ee9c24d8620_pokemon.py::test_when_try_to_catch_pokemon_but_invalid_experience_return_need_to_level_up_statement: passed
+test_dc6575a9-d693-4d9a-98c0-9ee9c24d8620_pokemon.py::test_get_pokemon_of_trainer_returns_list_of_pokemon_objects: passed
+test_dc6575a9-d693-4d9a-98c0-9ee9c24d8620_pokemon.py::test_get_pokemon_of_trainer_returns_empty_list_if_trainer_has_no_pokemon: passed
+test_dc6575a9-d693-4d9a-98c0-9ee9c24d8620_pokemon.py::test_when_trainer_catches_pokemon_master_of_pokemon_is_updated: passed
+test_dc6575a9-d693-4d9a-98c0-9ee9c24d8620_pokemon.py::test_master_for_new_pokemon_print_msg: failed
+
+
+Errors: 0 errors
+

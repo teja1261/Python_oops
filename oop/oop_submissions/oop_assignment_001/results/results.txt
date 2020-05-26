@@ -1,0 +1,35 @@
+Tests ran at 17 Apr 09 31 PM
+
+27 tests passed out of 27 tests.
+
+test_car.py::test_car_constructor_for_object_creation_with_given_values: passed
+test_car.py::test_car_constructor_for_multiple_objects_creation_with_given_values: passed
+test_car.py::test_invalid_max_speed_attr: passed
+test_car.py::test_invalid_acceleration_attr: passed
+test_car.py::test_invalid_tyre_friction_attr: passed
+test_car.py::test_start_engine: passed
+test_car.py::test_start_engine_with_multiple_car_instances: passed
+test_car.py::test_start_engine_when_car_engine_is_started_twice: passed
+test_car.py::test_current_speed_to_zero_for_newly_created_car: passed
+test_car.py::test_current_speed_to_zero_even_after_engine_start: passed
+test_car.py::test_accelerate_when_car_engine_is_not_started: passed
+test_car.py::test_accelerate_with_different_acceleration_when_car_engine_is_not_started: passed
+test_car.py::test_accelerate_car: passed
+test_car.py::test_accelerate_car_with_different_acceleration: passed
+test_car.py::test_accelerate_car_more_than_max_limit: passed
+test_car.py::test_accelerate_car_with_different_acceleration_more_than_max_limit: passed
+test_car.py::test_apply_break_when_car_current_speed_is_more_than_tyre_friction: passed
+test_car.py::test_apply_break_when_car_current_speed_is_less_than_tyre_friction: passed
+test_car.py::test_apply_break_when_car_is_at_rest: passed
+test_car.py::test_apply_break_with_different_acceleration_when_car_is_at_rest: passed
+test_car.py::test_sound_horn_when_car_engine_is_not_started: passed
+test_car.py::test_sound_horn_when_car_engine_is_started: passed
+test_car.py::test_stop_engine_when_car_engine_is_started: passed
+test_car.py::test_stop_engine_when_multiple_cars_are_started: passed
+test_car.py::test_stop_engine_when_car_is_running: passed
+test_car.py::test_stop_engine_when_car_engine_is_already_stopped: passed
+test_car.py::test_encapsulation: passed
+
+
+Errors: 0 errors
+
